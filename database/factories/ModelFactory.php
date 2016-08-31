@@ -27,7 +27,7 @@ $factory->define(App\Course::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->sentence,
         'author' => $faker->name,
-        'description' => $faker->paragraphs
+        'description' => $faker->paragraph
     ];
 });
 

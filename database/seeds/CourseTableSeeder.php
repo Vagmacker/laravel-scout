@@ -12,6 +12,6 @@ class CourseTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Course::class, 150)->create();
+        factory(Course::class, 500)->create();
     }
 }
